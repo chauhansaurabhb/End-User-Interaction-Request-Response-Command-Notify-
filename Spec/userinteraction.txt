@@ -1,0 +1,12 @@
+resources:
+    userinteractions:
+		SmartHomeApp						
+			command Off();
+	 		command SetTemp(setTemp);
+	 		request profile;	 	
+	 		notify DisplayTemp(tempNotify:TempStruct);
+	 		
+	 		
+	 		
+	 		
+ 
